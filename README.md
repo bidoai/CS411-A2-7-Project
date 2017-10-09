@@ -1,1 +1,3 @@
 # CS411-A2-7-Project
+
+Our idea is to develop a web application that suggests concerts and music festivals near you on Eventbrite based on who you listen to on Spotify. We will be using the Spotify API to gather user-related data such as playlists and music saved in the user’s library. Using this information, our web application will generate a list of events found on Eventbrite that the user may be interested in attending. We will subsequently be using the Eventbrite API which allows us to retrieve this event-related information. We will be using Spotify as the third-party authentication for the web application. The database for the web application will store a user’s profile information.
