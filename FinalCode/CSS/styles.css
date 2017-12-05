@@ -1,0 +1,242 @@
+#login-image {
+	background: darkgrey;
+	min-height: 800px;
+	padding: 0px 0px 0px 0px;
+}
+
+#login-text {
+	text-align: center;
+	min-height: 400px;
+	background-color: #0D0D0D;
+
+}
+
+#project-descript {
+	min-height: 400px;
+	color: floralwhite;
+	margin-top: 100px;
+	position: relative;
+	top: 100px;
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+}
+
+#Spotify-login-btn {
+	background-color: black;
+	color: green;
+	position: relative;
+	bottom: 120px;
+}
+
+div .concert-list {
+	
+	min-height: 400px;
+	box-sizing: border-box;
+	
+}
+
+.artist-icons {
+	min-height: 250px;
+}
+
+ .artist-based  {
+	border: solid black 1px;
+	min-height: 200px;
+	max-height: 400px;
+	margin: 10px auto;
+	padding: 20px 20px 20px 20px;
+	box-sizing: border-box;
+	background-color: #4d4d4d;
+	text-align: center;
+	overflow-y: scroll;
+	border-radius: 2%;
+	
+}
+
+.artist-recommended {
+	border: solid black 1px;
+	min-height: 200px;
+	max-height: 400px;
+	margin: 10px auto;
+	padding: 20px 20px 20px 20px;
+	box-sizing: border-box;
+	background-color: #4d4d4d;
+	text-align: center;
+	overflow-y: scroll;
+	border-radius: 2%;
+	
+}
+
+#artist-icons {
+
+}
+
+
+#icon1  {
+	margin: 10px auto;
+	margin-top: 80px;
+	padding: 0px;
+}
+
+#icon2  {
+	margin: 10px auto;
+	margin-top: 80px;
+	padding: 0px;
+}
+
+#icon3  {
+	margin: 10px auto;
+	margin-top: 80px;
+	padding: 0px;
+}
+
+#icon4  {
+	margin: 10px auto;
+	margin-top: 80px;
+	padding: 0px;
+}
+
+#icon5  {
+	margin: 10px auto;
+	margin-top: 80px;
+	padding: 0px;
+}
+
+#test {
+	margin: 10px 10px 10px 10px;
+	border: 1px solid black;
+}
+
+#logout-btn {
+	background-color: white;
+	position: relative;
+	left: 900px;
+	margin-top: 10px;
+}
+
+#login-logo {
+	color: white;
+	margin: 0px 10px 10px 10px;
+	text-align: center;
+	font-size: 200%;
+	position: relative;
+	list-style-type: none;
+	bottom: 10px;
+}
+
+.login-text {
+	position: relative;
+	top: 10px;
+}
+
+#flume {
+	position: relative;
+	right: 100px;
+}
+
+#damn {
+	position: relative;
+	right: 75px;
+}
+
+#test-img {
+	position: relative;
+	right: 175px;
+}
+
+#rufus {
+	position: relative;
+	right: 100px;
+}
+
+#urban-cone {
+	position: relative;
+	right: 150px; 
+}
+
+#index-logo {
+
+}
+
+body { 
+
+	background: #9cb8b3; 
+	font-family: HelveticaNeue;
+}
+
+h1 {
+    font: 600 1.5em/1 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top: 25%;
+    width: 100%;
+}
+
+h4 {
+	font-size: 1.2em;
+	font-weight: bold;
+	color: floralwhite;
+}
+
+span, span:after {
+    font-weight: 900;
+    color: floralwhite;
+    white-space: nowrap;
+    display: inline-block;
+    position: relative;
+    letter-spacing: .1em;
+    padding: .2em 0 .25em 0;
+}
+
+span {
+    font-size: 1.5em;
+    z-index: 100;
+    
+}
+
+span:after {
+    content: attr(data-shadow-text);
+    color: rgba(0,0,0,.35);
+    text-shadow: none;
+    position: absolute;
+    left: .0875em;
+    top: .0875em;
+    z-index: -1;
+    -webkit-mask-image: url(https://f.cl.ly/items/1t1C0W3y040g1J172r3h/mask.png);
+}
+
+.tm-display {
+	padding-left: 0px;
+}
+
+#grad {
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(red, yellow); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(red, yellow); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(red, yellow); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#4d4d4d, #000); /* Standard syntax (must be last) */
+}
+
+#anything {
+	background-color: #4d4d4d;
+}
+
+.dark-background {
+	background-color: #4d4d4d;
+	border: none;
+}
+
+.username {
+	color: white;
+	margin: 10px 10px 10px 10px;
+	font-weight: bold;
+	font-size: 1.2em;
+	position: relative;
+	left: 15px;
+
+}
