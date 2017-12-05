@@ -26,7 +26,7 @@ SPOTIFY_APP_SECRET = 'put your secret here'
 
 
 app.debug = True
-app.secret_key = 'development'
+app.secret_key = 'your secret key'
 oauth = OAuth(app)
 
 spotify = oauth.remote_app(
