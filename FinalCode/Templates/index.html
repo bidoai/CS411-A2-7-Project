@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Concert Finder</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="../static/node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../static/css/styles.css">
+	<link rel="stylesheet" href="../static/node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../static/css/bootstrap-social.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+</head>
+<body>
+	<div class = "container">
+		<div class = "row" id = "login-content">
+			<div class = "col-12 col-sm-6" id="login-image">
+                <div class="mySlides w3-display-container w3-center" id="flume">
+                    <img src="/../static/images/flume.jpg" height="800">
+                </div>
+				<div class="mySlides w3-display-container w3-center">
+					<img src="/../static/images/test.jpg" height="800">
+				</div>
+                 <div class="mySlides w3-display-container w3-center" id="damn">
+                    <img src="/../static/images/damn.jpg" height="800">
+                </div>
+				<div class="mySlides w3-display-container w3-center">
+					<img src="../static/images/test1.jpeg" height="800">
+				</div>
+                 <div class="mySlides w3-display-container w3-center" id="urban-cone">
+                    <img src="/../static/images/urban_cone.jpg" height="800">
+                </div>
+                 <div class="mySlides w3-display-container w3-center" id="rufus">
+                    <img src="/../static/images/rufus.jpg" height="800">
+                </div>
+			</div>
+			<div class = "col-12 col-sm-6" id="login-text">
+				<div id = "project-descript">
+				    <h1 id="index-logo"><span data-shadow-text="Text-Shadow">Concert Finder</span></h1>
+                    <h6 style="color: #efedce ">Concert Recommendations Based on Your Spotify Music</h6>
+				</div>
+				<div>
+				
+				<button class = "btn btn-lg" type="button" id = "Spotify-login-btn" style="background-color: #1db954; color: floralwhite;"><a href="{{ url_for('login') }}">Login With Spotify</a></button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- jQuery first, then Tether, then Bootstrap JS. -->
+	<script src="../static/node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="../static/node_modules/tether/dist/js/tether.min.js"></script>
+	<script src="../static/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+		var myIndex = 0;
+		carousel();
+
+		function carousel() {
+		    var i;
+		    var x = document.getElementsByClassName("mySlides");
+		    for (i = 0; i < x.length; i++) {
+		       x[i].style.display = "none";  
+		    }
+		    myIndex++;
+		    if (myIndex > x.length) {myIndex = 1}    
+		    x[myIndex-1].style.display = "block";  
+		    setTimeout(carousel, 4000);
+}
+	</script>
+</body>
+</html>

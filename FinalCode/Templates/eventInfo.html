@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Events</title>
+</head>
+
+<body>
+
+<ul>
+
+<h1>{{ name }}</h1>
+</ul>
+
+<h1>Top Artists</h1>
+<ul>
+        {% for z in topArtists %}
+        <li>{{z}}</li>
+        {% endfor %}
+</ul>
+
+
+<h1>Eventbrite Events</h1>
+<ul>
+        {% for x in eventbriteResponse %}
+        <li>{{x}}</li>
+        {% endfor %}
+</ul>
+
+
+<h1>Ticketmaster</h1>
+<ul>
+         {% for y in ticketmasterResponse %}
+        <li>{{y}}</li>
+        {% endfor %}
+</ul>
+
+</body>
+</html>
